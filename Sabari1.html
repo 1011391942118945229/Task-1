@@ -1,0 +1,226 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to Flipkart</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #ffffff);
+      color: #2c3e50;
+      text-align: center;
+      padding: 60px 20px;
+    }R
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #1a237e;
+    }
+
+    p {
+      font-size: 1.1em;
+      max-width: 800px;
+      margin: 0 auto 30px;
+      line-height: 1.6;
+    }
+
+    img {
+      width: 180px;
+      margin: 30px 0;
+    }
+
+    a {
+      color: #1565c0;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      margin: 10px 0;
+    }
+
+    button {
+      padding: 12px 28px;
+      background-color: #1976d2;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin-top: 15px;
+    }
+
+    button:hover {
+      background-color: #0d47a1;
+    }
+
+    footer {
+      background-color: #1565c0;
+      color: white;
+      padding: 20px;
+      margin-top: 60px;
+      font-size: 1em;
+      border-top: 4px solid #0d47a1;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2em;
+      }
+      p {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to Flipkart</h1>
+  <p>Flipkart is one of India's leading e-commerce platforms, founded in 2007 by Sachin Bansal and Binny Bansal. Originally started as an online bookstore, Flipkart quickly expanded its product range to include electronics, fashion, home essentials, and more.</p>
+  <img src="https://deep-image.ai/blog/content/images/2023/01/Flipkart-logo.png" alt="Flipkart-logo">
+  <br>
+  <a href="https://www.flipkart.com" target="_blank">Visit Flipkart Official Website</a>
+  <br>
+  <button onclick="showAlert()">Click Me</button>
+
+  <footer>
+    Thank you for visiting!
+  </footer>
+
+  <script>
+    function showAlert() {
+      alert("You clicked the button!");
+    }
+  </script>
+
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A simple webpage with image, link, and button interaction" />
+    <title>Welcome to Amazon</title>
+    <link rel="icon" href="https://www.amazon.com/favicon.ico" type="image/x-icon" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #232f3e;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h1, h2 {
+            margin: 0 0 10px;
+        }
+
+        img {
+            width: 100%;
+            max-width: 300px;
+            display: block;
+            margin: 10px auto;
+            border-radius: 8px;
+        }
+
+        a {
+            color: #1e90ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        button {
+            background-color: #232f3e;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 4px;
+            margin: 20px auto 60px auto;  /* Increased the bottom margin to 60px for space */
+            display: inline-block;
+        }
+
+        button:hover {
+            background-color: #37475a;
+        }
+
+        footer {
+            background-color: #232f3e;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;  /* Increased padding for more space inside the footer */
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Amazon</h1>
+    </header>
+
+    <main>
+        <section>
+            <p>
+                Amazon is one of the largest and most influential technology companies in the world, 
+                originally founded by Jeff Bezos in 1994 as an online bookstore. Since then, it has evolved 
+                into a global e-commerce giant, offering millions of products ranging from electronics and clothing 
+                to groceries and digital services. Beyond retail, Amazon has become a major player in cloud computing 
+                through its Amazon Web Services (AWS) division.
+            </p>
+            <img src="https://assets.upstox.com/content/assets/images/cms/202451/Amazon%20logo.png" alt="Amazon company logo" />
+        </section>
+
+        <section>
+            <a href="https://www.amazon.com" target="_blank" rel="noopener">Visit Amazon Official Website</a>
+        </section>
+
+        <section>
+            <button id="alertButton" aria-label="Click to show alert">Click Me</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Thank you for visiting!</p>
+    </footer>
+
+    <script>
+        const button = document.getElementById("alertButton");
+        button.addEventListener("click", function () {
+            alert("You clicked the button!");
+        });
+    </script>
+</body>
+</html>
+
